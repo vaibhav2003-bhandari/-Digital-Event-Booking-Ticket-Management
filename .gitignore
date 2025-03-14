@@ -1,24 +1,94 @@
-# Compiled class file
-*.class
+# ==============================
+# Java (Spring Boot) Specific
+# ==============================
 
-# Log file
+# Compiled class files
+*.class
+**/target/
+**/bin/
+**/build/
+
+# Log files
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Java Package Files
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual Machine Crash Logs
 hs_err_pid*
 replay_pid*
+
+# Maven files
+.mvn/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+
+# Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==============================
+# Frontend (HTML, CSS, JavaScript)
+# ==============================
+
+# Node.js dependencies (if used for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Compiled CSS
+*.css.map
+
+# ==============================
+# Database (MySQL)
+# ==============================
+
+# MySQL dumps & database files
+*.sql
+*.db
+
+# ==============================
+# IDE & Editor Specific
+# ==============================
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.nb-gradle/
+
+# ==============================
+# OS Specific & Misc
+# ==============================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
